@@ -20,19 +20,21 @@ Antes de começar, certifique-se de que você possui os seguintes requisitos ins
 ## Instalação
 
 1. Clone o repositório para o seu ambiente local:
-  git clone https://github.com/endmrf/Firmware-IoT.git
-  cd Firmware-IoT
+    - git clone https://github.com/endmrf/Firmware-IoT.git
+    - cd Firmware-IoT
    
 2. Compile o Firmware:
-  mkdir build
-  cd build
-  cmake ..
-  make
+   
+    - cd build
+    - cmake ..
+    - mkdir build
+    - make
 
 3. Flash o firmware para o dispositivo:
-   make flash
+   
+    - make flash
 
 
 ## Testes
 Para executar os testes, use o comando:
-  make test
+  - make test

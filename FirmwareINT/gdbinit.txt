@@ -1,0 +1,3 @@
+
+shell start C:\ProjetoWEG\Firmwares\iot-home-automation-firmware\sdk-wgm160p\4.1.11-7064\tools\Segger\win32\JLink_V644h\JLinkGDBServerCL.exe -select USB -device EFM32GG11B820F2048 -singlerun -if swd -speed auto -noir -rtos GDBServer/RTOSPlugin_uCOSIII  -log C:/ProjetoWEG/Firmwares/iot-home-automation-firmware/FirmwareINT/gdb_server.log 
+

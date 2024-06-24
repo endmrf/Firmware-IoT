@@ -4,10 +4,9 @@ Este repositório contém o código-fonte para o firmware IoT desenvolvido para 
 
 ## Conteúdo
 
-- `src/`: Código-fonte principal do firmware.
-- `docs/`: Documentação detalhada do firmware.
-- `examples/`: Exemplos de utilização do firmware.
-- `tests/`: Scripts de teste para validar a funcionalidade do firmware.
+- `FirmwareDIM/`: Código-fonte do firmware do dimmer.
+- `FirmwareINT/`: Código-fonte do firmware do interruptor.
+- `FirmwareTOM/`: Código-fonte do firmware da tomada.
 
 ## Requisitos
 
@@ -34,13 +33,6 @@ Antes de começar, certifique-se de que você possui os seguintes requisitos ins
    make flash
 
 
-## Utilização
-Para utilizar o firmware, siga os exemplos fornecidos na pasta examples/. Cada exemplo contém um README detalhado sobre como configurar e executar o código.
-
-## Documentação
-A documentação completa pode ser encontrada na pasta docs/. Certifique-se de ler a documentação para entender completamente as capacidades e limitações do firmware.
-
 ## Testes
 Para executar os testes, use o comando:
   make test
-  Os resultados dos testes serão exibidos no terminal. Para mais detalhes sobre os testes, consulte a pasta tests/.
